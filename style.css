@@ -3,7 +3,7 @@
    ========================================================================== */
 
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 nav ul{list-style:none}
@@ -23,10 +23,10 @@ li{list-style:none}
    ========================================================================== */
 
 .main {
-    position: relative;
+    position: absolute;
     text-align: left;
     font-size: 20px;
-    color: black;
+    color: white;
     font-family: Georgia;
 }
 
@@ -40,7 +40,6 @@ li{list-style:none}
 
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 html, body{
@@ -49,10 +48,10 @@ html, body{
 	background:#111;
 }
 
-.particles-js{
+#particles-js{
     width: 100%;
     height: 100%;
-    background-color: #b61924;
+    background-color: #2e353d;
     background-image: url('');
     background-size: cover;
     background-position: 50% 50%;
@@ -63,9 +62,12 @@ html, body{
 /* NavBar */
 
 .topnav {
-    background-color: #333;
+    background-color: transparent;
     overflow: hidden;
     position: relative;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 .topnav a {
@@ -75,6 +77,9 @@ html, body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
 }
 
 .topnav a:hover {
@@ -83,7 +88,7 @@ html, body{
 }
 
 .topnav a.active {
-    background-color: #f0d488;
-    color: white;
+    background-color: #ddd;
+    color: black;
   }
   
